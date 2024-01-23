@@ -17,6 +17,7 @@ sysinfo.txt
 # VS/MD solution and project files
 ###
 [Ee]xportedObj/
+.consulo/
 *.booproj
 *.csproj
 *.sln
@@ -26,10 +27,17 @@ sysinfo.txt
 *.unityproj
 *.user
 *.userprefs
-*.pidb
-*.pdb
+#Meta Files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
 .DS_Store
 
+# Visual Studio cache directory
+.vs/
+
+# Gradle cache directory
+.gradle/
 ###
 # OS generated
 ###
@@ -46,3 +54,13 @@ Thumbs.db
 
 # Builds
 *.apk
+*.aab
+*.unitypackage
+*.app
+
+# Packed Addressables
+[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Temporary auto-generated Android Assets
+[Aa]ssets/[Ss]treamingAssets/aa.meta
+[Aa]ssets/[Ss]treamingAssets/aa/*
