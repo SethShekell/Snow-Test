@@ -30,6 +30,8 @@ sysinfo.txt
 *.unityproj
 *.user
 *.userprefs
+*.log
+
 #Meta Files
 *.pidb.meta
 *.pdb.meta
@@ -67,4 +69,6 @@ Thumbs.db
 # Temporary auto-generated Android Assets
 [Aa]ssets/[Ss]treamingAssets/aa.meta
 [Aa]ssets/[Ss]treamingAssets/aa/*
+
+*.log
 
