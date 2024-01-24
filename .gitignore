@@ -74,6 +74,7 @@ crashlytics-build.properties
 MeltingSnow_Test/Logs/shadercompiler-UnityShaderCompiler.exe0.log
 *.log
 *.dwlt
+*.0exe
 git rm --cached MeltingSnow_Test\UserSettings\Layouts\default-2022.dwlt
 git commit -m "remove MeltingSnow_Test\UserSettings\Layouts\default-2022.dwlt"
 git rm --cached MeltingSnow_Test\Logs\shadercompiler-UnityShaderCompiler.exe0.log
